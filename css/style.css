@@ -1,0 +1,64 @@
+/*Resetando página*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/*copiando o tema do instagram*/
+body {
+    background-color: #2c608b;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#sessao-principal-login {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    min-height: 100vh;
+}
+
+#celulares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 50%;
+    margin: 2.5%;
+}
+
+#celulares img {
+    height: 100%;
+    width: auto;
+}
+
+#bloco-login {
+    width: 50%;
+    margin: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#logo-instagram img{
+    width: 60%;
+}
+
+/*Estilizando grupos*/
+.grupo {
+    background-color: rgb(243, 243, 243);
+}
+
+.grupo #imagem-user {
+    width: 20%;
+}
